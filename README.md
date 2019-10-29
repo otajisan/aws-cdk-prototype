@@ -158,11 +158,11 @@ AwsCdkPrototypeStack: deploying...
 Updated: asset.xxx (zip)
 AwsCdkPrototypeStack: creating CloudFormation changeset...
  0/4 | 3:07:25 AM | CREATE_IN_PROGRESS   | AWS::CDK::Metadata    | CDKMetadata
- 0/4 | 3:07:25 AM | CREATE_IN_PROGRESS   | AWS::IAM::Role        | HelloCdkHandler/ServiceRole (HelloCdkHandlerServiceRoleCFF26764)
- 0/4 | 3:07:26 AM | CREATE_IN_PROGRESS   | AWS::IAM::Role        | HelloCdkHandler/ServiceRole (HelloCdkHandlerServiceRoleCFF26764) Resource creation Initiated
+ 0/4 | 3:07:25 AM | CREATE_IN_PROGRESS   | AWS::IAM::Role        | HelloCdkHandler/ServiceRole (HelloCdkHandlerServiceRolexxx)
+ 0/4 | 3:07:26 AM | CREATE_IN_PROGRESS   | AWS::IAM::Role        | HelloCdkHandler/ServiceRole (HelloCdkHandlerServiceRolexxx) Resource creation Initiated
  0/4 | 3:07:27 AM | CREATE_IN_PROGRESS   | AWS::CDK::Metadata    | CDKMetadata Resource creation Initiated
  1/4 | 3:07:27 AM | CREATE_COMPLETE      | AWS::CDK::Metadata    | CDKMetadata
- 2/4 | 3:07:44 AM | CREATE_COMPLETE      | AWS::IAM::Role        | HelloCdkHandler/ServiceRole (HelloCdkHandlerServiceRoleCFF26764)
+ 2/4 | 3:07:44 AM | CREATE_COMPLETE      | AWS::IAM::Role        | HelloCdkHandler/ServiceRole (HelloCdkHandlerServiceRolexxx)
  2/4 | 3:07:48 AM | CREATE_IN_PROGRESS   | AWS::Lambda::Function | HelloCdkHandler (HelloCdkHandler2C07A554)
  2/4 | 3:07:48 AM | CREATE_IN_PROGRESS   | AWS::Lambda::Function | HelloCdkHandler (HelloCdkHandler2C07A554) Resource creation Initiated
  3/4 | 3:07:49 AM | CREATE_COMPLETE      | AWS::Lambda::Function | HelloCdkHandler (HelloCdkHandler2C07A554)
