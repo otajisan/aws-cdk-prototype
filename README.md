@@ -175,3 +175,12 @@ arn:aws:cloudformation:ap-northeast-1:xxx:stack/AwsCdkPrototypeStack/xxx
 ```
 
 https://ap-northeast-1.console.aws.amazon.com/lambda/home?region=ap-northeast-1#/functions
+
+# Sequelize
+
+## モデルのスケルトン生成コマンド
+
+```
+# 実例
+$ npx sequelize-cli model:generate --name employee --attributes id:bigint,name:string,created_at:date,updated_at:date
+`````
